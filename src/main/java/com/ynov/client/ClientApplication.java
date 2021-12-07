@@ -24,10 +24,10 @@ public class ClientApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		List<Product> products = productService.getProducts();
-		products.stream().forEach(
-				(product) -> System.out.println(product.getName())
-				);
+//		List<Product> products = productService.getProducts();
+//		products.stream().forEach(
+//				(product) -> System.out.println(product.getName())
+//				);
 		
 		
 	}
